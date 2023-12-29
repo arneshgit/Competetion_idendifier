@@ -15,15 +15,14 @@ import {
 import axios from "axios";
 
 
-
 function Login() {const [email, setEmail] = useState(''); 
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
-
+console.log(process.env.REACT_APP_BASEURL);
   const handleClick = async () => {
     try {
       const postData = {value1:email,value2:password}
-      const response = await axios.post('http://localhost:8000/login', postData)
+      const response = await axios.post(process.env.REACT_APP_BASEURL+'/login', postData)
       if (response.data.success) {
         // Redirect to home page upon successful login
         navigate('/home');

@@ -17,7 +17,7 @@ import axios from "axios";
 function Login() {const [email, setEmail] = useState(''); 
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
-console.log(process.env.REACT_APP_BASEURL);
+console.log(REACT_APP_BASEURL);
   const handleClick = async () => {
     try {
       const postData = {value1:email,value2:password}

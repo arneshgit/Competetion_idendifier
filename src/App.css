@@ -11,7 +11,7 @@ body {
   align-items: center;
   background-color: #38354d; /* Example background color */
   -webkit-background-color: #38354d;
-  color: white; /* Example text color */
+  color: rgb(223, 24, 24); /* Example text color */
   margin: 5rem auto; /* Example margin */
   
 }

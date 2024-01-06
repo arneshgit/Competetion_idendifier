@@ -9,8 +9,9 @@ body {
   border-radius: 2rem;
   max-width: 400px;
   align-items: center;
-  background-color: #38354d; /* Example background color */
+  
   -webkit-background-color: #38354d;
+  background-color: #38354d; /* Example background color */
   color: rgb(223, 24, 24); /* Example text color */
   margin: 5rem auto; /* Example margin */
   

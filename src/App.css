@@ -4,7 +4,7 @@ body {
 /* Styling for the card container */
 .cardbody {
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   align-items: center;
   border-radius: 2rem;
   max-width: 400px;
